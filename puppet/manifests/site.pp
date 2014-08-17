@@ -12,6 +12,8 @@ class role_nexus_server {
 
   Class['::java'] ->
   Class['::nexus']
+  Package['wget']->Class['::nexus']
 }
 
 include role_nexus_server
+package { 'apt-cacher-ng' : }
