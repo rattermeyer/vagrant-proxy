@@ -15,3 +15,8 @@ So kommen in das Sonatype Nexus
 * IntelliJ IDEA
 
 Dies beschleunigt die Entwicklung / Provisioning von Entwicklermaschinen
+
+Füllen der Proxies
+==================
+Unter ```scripts``` gibt es ein Skript zum füllen des nexus.
+Dies dort ausführen, wo man die Binaries runtergeladen hat.
